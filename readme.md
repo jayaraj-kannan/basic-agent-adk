@@ -39,5 +39,6 @@ adk deploy cloud_run \
     --set-env-vars="GOOGLE_API_KEY=$GOOGLE_API_KEY,GOOGLE_GENAI_USE_ENTERPRISE=0" \
     --allow-unauthenticated
 ```
+live : https://basic-agent-service-478948596809.us-central1.run.app/dev-ui/?app=basic_agent_app&userId=user&session=f5cbe65f-71e5-47eb-9a28-f6016151216d
 
 > **Note**: This command configures the service to allow unauthenticated access (`--allow-unauthenticated`). For production, consider using tighter security controls and storing your API key in Google Cloud Secret Manager instead of passing it as an environment variable.
