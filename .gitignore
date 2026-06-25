@@ -1,0 +1,7 @@
+basic_agent/.env
+.venv
+basic_agent/__pycache__
+.adk
+server/.env
+server/adk_sessions.db
+server/__pycache__
